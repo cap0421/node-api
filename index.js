@@ -15,4 +15,4 @@ app.use(express.json());
 
 //Route middleware
 app.use('/api/user', authRoute);
-app.listen(3000, () => console.log('Server Up and Running'));
+app.listen(8080, () => console.log('Server Up and Running'));
